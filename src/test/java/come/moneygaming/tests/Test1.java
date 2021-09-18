@@ -26,7 +26,7 @@ driver.get("https://moneygaming.qa.gameaccount.com/sign-up.shtml");
         nameBox.sendKeys("Mike");
         WebElement surnameBox= driver.findElement(By.xpath("//input[@name='map(lastName)']"));
 surnameBox.sendKeys("smith");
-Thread.sleep(2000);
+Thread.sleep(5000);
     }
 
 
