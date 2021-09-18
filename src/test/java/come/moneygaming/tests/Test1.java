@@ -28,6 +28,8 @@ driver.get("https://moneygaming.qa.gameaccount.com/sign-up.shtml");
 surnameBox.sendKeys("smith");
 Thread.sleep(2000);
     }
+
+
 @AfterMethod
     public void tearDown(){
 
